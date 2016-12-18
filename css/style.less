@@ -85,15 +85,15 @@ header{
 		}
 	.header_subscribe1{
 		height: 200px;
-		color: #282c3a;
-		.gotham_bold;
-		font-size: 40px;
 		background: url(../img/header_subscribe1.jpg)no-repeat center center;
 		vertical-align: center;
 		p{
 		position: absolute;
 		top: 30%;
 		left: 15%;	
+		color: #282c3a;
+		.gotham_bold;
+		font-size: 40px;
 		}
 	}
 	.header_subscribe2{
@@ -347,6 +347,33 @@ footer{
 	}
 	
 // 
+
+@media (max-width: 992px) {
+	header#main_header{
+		h1{
+			font-size: 6vw;
+		}
+		h4{
+			font-size: 1.7vw;
+		}
+		.header_subscribe1, .header_subscribe2, {
+			height: 150px;
+			p, span, .price{
+				font-size: 30px;
+				top:22%;
+				left:10%;
+			}
+			.buy{
+				left: 13%;
+			}
+		}
+	}
+	section#second{
+		h2{
+			font-size: 5vw;
+		}
+	}
+}
 @media (max-width: 768px) {
 	header#main_header{
 		.header_subscribe1{
@@ -358,16 +385,16 @@ footer{
 			margin-bottom: 0;
 		}
 		h1{
-		font-size: 10vw;
+		font-size: 50px;
 		}
 		h2{
-			font-size: 4.2vw;
+			font-size: 30px;
 		}
 		h4{
-			font-size: 4.4vw;
+			font-size: 20px;
 		}
 		h5{
-			font-size: 2.7vw;
+			font-size: 16px;
 		}
 	.header_nav, .phone{
 		margin-top: 20px;
@@ -376,7 +403,7 @@ footer{
 	section#second{
 		padding-top: 15%;
 		h2{
-			font-size: 7.5vw;
+			font-size: 40px;
 		}
 		h3{
 			font-size: 3.5vw;
@@ -391,7 +418,6 @@ footer{
 		}
 	}
 	section#teacher{
-
 		h2{
 			font-size: 6vw;
 		}
